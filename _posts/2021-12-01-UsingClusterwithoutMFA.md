@@ -31,7 +31,7 @@ It will ask for password for your gatorlink. After you have entered the password
 You can cd into the path to check if the public and private key pair exists. Now you can login without needing to enter password using: 
 
 ```console
-ssh YOURNAME@hpg.rc.ufl.edu
+ssh USERNAME@hpg.rc.ufl.edu
 ```
 This is great but you will still need to autheticate using dual factor authentication.
 
