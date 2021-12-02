@@ -12,7 +12,7 @@ tags:
 Hipergator recently updated to a dual factor authentication for logging in, which means for people who use it on a daily basis and multiple sessions, it can get annoying pretty fast.
 The workaround is to use ssh multiplexing which can allow you to use an existing TCP connection for multiple sessions. More on [multiplexing here](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing)
 In other words, given that you log in and authenticate once, and that initial terminal remains open, you can log into multiple sessions without authentication.
-Although I would advice against it, but you can increase the time from 8hrs.
+Although I would advise against it, but you can increase the time from 8hrs.
 
 Generating SSH Keys for passwordless login
 ------
