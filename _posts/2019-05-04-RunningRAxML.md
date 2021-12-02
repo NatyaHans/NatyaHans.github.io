@@ -23,7 +23,7 @@ RAxML takes gene alignments as input in [phylip format](https://evolution.geneti
 
 Getting files and folders ready
 --------
-You can download a sample slurm script to be modified [here]() and a sample phylip format alignment [here]()
+You can download a sample slurm script to be modified [here](http://NatyaHans.github.io/files/slurm_4_tania_raxml.sh) and a sample phylip format alignment [here](http://NatyaHans.github.io/files/sample.phy).
 After you login to Hipergator, make a separate folder, I named the folder raxml_analysis here.
 Then you should move the slurm script into the folder using mv command if the files are already on Hipergator or using scp (see the transferring  files blog) (or cyberduck or globus) if the files are on your computer. 
 You should also move your alignment file which should be in phylip format into this folder.  
