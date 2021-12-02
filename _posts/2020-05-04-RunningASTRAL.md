@@ -36,7 +36,7 @@ It is always a good idea to double check and make sure the version is correct es
         module load astral/5.6.2
         
 
-Let's assume all of your gene trees are in a single file labeled INPUTGENETREES.tre (again note that it is in newick format). For a sample input file click [here]( http://NatyaHans.github.io/files/sample6gene.tre). The file has 6 gene trees in  Newick format in a single file. You can concatenate your gene trees if they are in individual files with cat command. Let's assume the extension of your gene trees is .tre, so you can use the following command"
+Let's assume all of your gene trees are in a single file labeled INPUTGENETREES.tre (again note that it is in newick format). For a sample input file click [here](http://NatyaHans.github.io/files/sample6gene.tre). The file has 6 gene trees in  Newick format in a single file. You can concatenate your gene trees if they are in individual files with cat command. Let's assume the extension of your gene trees is .tre, so you can use the following command"
 
         cat *.tre > INPUTGENETREES.tre
 
