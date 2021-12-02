@@ -20,7 +20,6 @@ For more information on RAxML and it's importance click [here for the manual](ht
 The wiki [article](https://help.rc.ufl.edu/doc/RAxML) on HiPerGator address and covers how to run mpi (parallel) version  of RAxML. I am just going to talk about how to put all that information in a single threaded. 
 
 RAxML takes gene alignments as input in [phylip format](https://evolution.genetics.washington.edu/phylip/doc/sequence.html) and gives a ML tree  
-
 Getting files and folders ready
 --------
 You can download a sample slurm script to be modified [here](http://NatyaHans.github.io/files/slurm_4_tania_raxml.sh) and a sample phylip format alignment [here](http://NatyaHans.github.io/files/sample.phy).
