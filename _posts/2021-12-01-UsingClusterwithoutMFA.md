@@ -44,7 +44,6 @@ Now add the following information into this config file.
 
 ```console
 Host hpg
-
     User USERNAME
     HostName hpg.rc.ufl.edu
     Port 2222
