@@ -3,11 +3,19 @@ layout: archive
 permalink: /analytics-dash/
 title: "Data Visualization Dashboards"
 author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
 ---
 
-Not showing
+Coming soon
 
 {% include base_path %}
-{% for post in site.viz reversed %}
-  {% include archive-single.html %}
+{% capture written_year %}'None'{% endcapture %}
+{% for board in site.viz %}
+  {% capture year %}{{ board.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single-talk.html %}
 {% endfor %}
