@@ -8,7 +8,6 @@ tags:
   - Google
   - Data
   - Studio
-  - Reports
 ---
 
 As the year 2021 ends, I decided to post some example of data visualization dashboards. I have been enjoying learning more about data visualization tools and decided to post sample dashboards for users to customize. I intend on keep learning more and sharing my dashboards experiences next year. 
