@@ -1,7 +1,7 @@
 ---
 title: 'My year in Review with Google Data Studio'
 date: 2021-12-30
-permalink: /2021-12-30-GoogleDataAnalytics
+permalink: /viz/2021-12-30-GoogleDataAnalytics
 tags:
   - Visualization
   - Analytics
