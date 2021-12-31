@@ -1,13 +1,13 @@
 ---
 layout: archive
 permalink: /analytics-dash/
-title: "DataViz"
+title: "Data Visualization Dashboards"
 author_profile: true
 ---
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% for viz in site.viz %}
+{% for post in site.viz %}
   {% capture year %}{{ viz.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
