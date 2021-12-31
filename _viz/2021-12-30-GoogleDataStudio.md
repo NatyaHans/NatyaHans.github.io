@@ -11,6 +11,8 @@ tags:
   - Reports
 ---
 
+As the year 2021 comes to an end I decided to post some example of data visualization dashboards. I have been enjoying learning more about data visualization tools and decided to post sample dashboards for users to customize. I intend on keep learning more and sharing my dashboards more next year. 
+
 
 <iframe width="600" height="950" src="https://datastudio.google.com/embed/reporting/63db5228-b443-4967-b3b5-625f56e4192e/page/4VDGB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
