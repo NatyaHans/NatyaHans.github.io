@@ -36,6 +36,8 @@ Audience Geo and Demographic
 -----
 It is always fun to know the location of your audience to understand more about the demographic interests. For example, I know I get more visitors from Florida as my content might be relevant to people in that area. 
 
+You can also track gender and age breakdown of your audience.
+
 <img src="http://NatyaHans.github.io/files/WebTraffic3.png" alt="Award" style="width:90%">
 
 
