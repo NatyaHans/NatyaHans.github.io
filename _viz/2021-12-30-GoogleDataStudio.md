@@ -21,23 +21,24 @@ I made this for my own website for fun. Here are description of some of these re
 
 Overview of User Behavior
 -----
-
+Some of the metrics I am personally interested in is average time a user(audience/visitor) spent on my site and unique page views. This personally helps me to make the content clearer and more engaging for the user. 
 
 <img src="http://NatyaHans.github.io/files/WebTraffic1.png" alt="Award" style="width:90%">
 
 Content drilldown
 -----
+For improving content to increase website traffic, this might be the most important metric, page views for each post. This helps me guage what blog posts were more popular with my audience. 
 
 <img src="http://NatyaHans.github.io/files/WebTraffic2.png" alt="Slide" style="width:90%">
 
 
-Audience Demographic
+Audience Geo and Demographic
 -----
+It is always fun to know the location of your audience to understand more about the demographic interests. For example, I know I get more visitors from Florida as my content might be relevant to people in that area. 
+
 <img src="http://NatyaHans.github.io/files/WebTraffic3.png" alt="Award" style="width:90%">
 
 
-
-
-I will make a separate post for how to make this easy visualization report using data 
+I will make a separate post for how to make this easy visualization report using data from google analytics.
 
 
