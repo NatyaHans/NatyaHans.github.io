@@ -17,11 +17,25 @@ For this first dashboard, I decided to start simple and use Google Data Studio a
 
 <iframe width="600" height="950" src="https://datastudio.google.com/embed/reporting/63db5228-b443-4967-b3b5-625f56e4192e/page/4VDGB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-I made this for my own website for fun. Here are some major reports.
+I made this for my own website for fun. Here are description of some of these reports.
 
-<img src="http://NatyaHans.github.io/files/WebTraffic1.png" alt="Award" style="width:50%">
-<img src="http://NatyaHans.github.io/files/WebTraffic2.png" alt="Slide" style="width:50%">
-<img src="http://NatyaHans.github.io/files/WebTraffic3.png" alt="Award" style="width:30%">
+Overview of User Behavior
+-----
+
+
+<img src="http://NatyaHans.github.io/files/WebTraffic1.png" alt="Award" style="width:90%">
+
+Content drilldown
+-----
+
+<img src="http://NatyaHans.github.io/files/WebTraffic2.png" alt="Slide" style="width:90%">
+
+
+Audience Demographic
+-----
+<img src="http://NatyaHans.github.io/files/WebTraffic3.png" alt="Award" style="width:90%">
+
+
 
 
 I will make a separate post for how to make this easy visualization report using data 
