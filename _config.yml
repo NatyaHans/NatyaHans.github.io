@@ -194,7 +194,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  viz:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
