@@ -64,12 +64,21 @@ $my-gray                    : #808080;
 
 
 /*#ecebeb*/
+<<<<<<< HEAD
 $body-color                 : $darkest-gray; /*original #fff NH2020*/
 $background-color           : $darkest-gray; /*original #fff NH2020*/
 $code-background-color      : $dark-gray; /*original #fafafa NH2020*/
 $code-background-color-dark : $white; /*original $light-gray NH2020*/
 $text-color                 : $slight-lighter-gray; /*original $dark-gray NH2020*/
 $border-color               : $lighter-gray; /*original $lighter-gray NH2020*/
+=======
+$body-color                 : #c7e0de;/*$darkest-gray; changed on NH2021 from--------*original #fff NH2020*/
+$background-color           : #c7e0de;/*$darkest-gray; changed on NH2021 from--------*original #fff NH2020*/
+$code-background-color      : #b5c6cf;/*$dark-gray; changed on NH2021 from---------*original #fafafa NH2020*/
+$code-background-color-dark : $white; /*original $light-gray NH2020*/
+$text-color                 : $darkest-gray; /*$slight-lighter-gray; changed from NH2021*---------*original $dark-gray NH2020*/
+$border-color               : $white; /*$lighter-gray; changed on NH2021 from----------*original $lighter-gray NH2020*/
+>>>>>>> origin/master
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;

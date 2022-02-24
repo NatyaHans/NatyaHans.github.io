@@ -1,4 +1,5 @@
 #!/bin/sh
+<<<<<<< HEAD
 #SBATCH --job-name=raxmltania  #Job name
 #SBATCH --mail-type=ALL # Mail events (NONE, BEGIN, END, FAIL, ALL)
 #SBATCH --mail-user=pinedae@ufl.edu # Where to send mail
@@ -8,6 +9,17 @@
 #SBATCH -o raxml_output.%j.out # Name output file
 #SBATCH
 #SBATCH --account=paulay
+=======
+#SBATCH --job-name=raxmlcoreNH  #Job name
+#SBATCH --mail-type=FAIL # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=USERNAME@ufl.edu # Where to send mail
+#SBATCH --cpus-per-task=1 # Number of cores: Can also use -c=4
+#SBATCH --mem-per-cpu=1gb # Per processor memory can be increase 8gb
+#SBATCH -t 18:00:00     # Walltime
+#SBATCH -o raxml_output.%j.out # Name output file
+#SBATCH --account=GROUPNAME
+#SBATCH --qos=GROUPNAME
+>>>>>>> origin/master
 
 pwd; hostname; date
 echo Working directory is $SLURM_SUBMIT_DIR
@@ -18,5 +30,9 @@ echo There are $SLURM_CPUS_ON_NODE cores available.
 module load raxml
 
 # do 1000 bootstraps + likelihood search for the single best tree
+<<<<<<< HEAD
 raxmlHPC-PTHREADS-SSE3 -f a -m GTRGAMMA -s YOURALIGNMENTSINPHYLIP.phy -p $RANDOM -x $RANDOM -N 1000 -n RAxML_raxmloutput_tania -T $SLURM_TASKS_PER_NODE
+=======
+raxmlHPC-SSE3 -f a -m GTRGAMMA -s YOURALIGNMENTSINPHYLIP.phy -p $RANDOM -x $RANDOM -N 1000 -n RAxML_raxmloutput -T $SLURM_TASKS_PER_NODE
+>>>>>>> origin/master
 
