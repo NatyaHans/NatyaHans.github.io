@@ -1,0 +1,32 @@
+# main links links
+main:
+
+  - title: "CV"
+    url: /cv/  
+    
+  - title: "Teaching"
+    url: /teaching/    
+    
+ #- title: "Awards"
+ #   url: /awards/
+  
+  - title: "Talks"
+    url: /talks/      
+  
+ # - title: "Workshops"
+ #    url: /workshops/  
+     # - title: "Publications"
+ #   url: /publications/
+
+  - title: "Outreach"
+    url: /outreach/
+  
+  - title: "Tutorials"
+    url: /year-archive/
+   
+  - title: "DataViz"
+    url: /analytics-dash/
+
+    
+  #- title: "Gallery"
+  #  url: /gallery/

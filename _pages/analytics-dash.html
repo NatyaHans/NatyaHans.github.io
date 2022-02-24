@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /analytics-dash/
+title: "Data Visualization Dashboards"
+author_profile: true
+---
+
+My experiments with data visualization!
+
+{% include base_path %}
+
+{% for post in site.viz reversed %}
+  {% include archive-single.html %}
+{% endfor %}
