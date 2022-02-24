@@ -1,0 +1,1000 @@
+   70  vi runmafft_coreNH_1kp.sh 
+   71  vi Cluster_runmuscle_NH_1kp.sh 
+   72  bash Cluster_runmuscle_NH_1kp.sh 
+   73  vi Cluster_runmuscle_NH_1kp.sh 
+   74  ls -ltr
+   75  vi Cluster_runmuscle_NH_1kp.sh 
+   76  bash Cluster_runmuscle_NH_1kp.sh 
+   77  ls -ltr
+   78  head L11.mafft.sh 
+   79  vi L11.mafft.sh 
+   80  sbatch L11.mafft.sh 
+   81  vi L12.mafft.sh 
+   82  sbatch L12.mafft.sh 
+   83  vi L13.mafft.sh 
+   84  sbatch L13.mafft.sh 
+   85  vi L14.mafft.sh 
+   86  vi Cluster_runmuscle_NH_1kp.sh 
+   87  vi L14.mafft.sh 
+   88  sbatch L14.mafft.sh 
+   89  sbatch L15.mafft.sh 
+   90  scancle 14842629
+   91  scancel 14842629
+   92  vi L15.mafft.sh 
+   93  sbatch L15.mafft.sh 
+   94  vi L16.mafft.sh 
+   95  sbatch L16.mafft.sh 
+   96  squeue -u nhans
+   97  ls -ltr *.out
+   98  vi L17.mafft.sh 
+   99  sbatch L17.mafft.sh 
+  100  vi L18.mafft.sh 
+  101  sbatch L18.mafft.sh 
+  102  vi L19.mafft.sh 
+  103  sbatch L19.mafft.sh 
+  104  vi L20.mafft.sh 
+  105  sbatch L20.mafft.sh 
+  106  vi Cluster_runmuscle_NH_1kp.sh 
+  107  bash Cluster_runmuscle_NH_1kp.sh 
+  108  vi Cluster_runmuscle_NH_1kp.sh 
+  109  bash Cluster_runmuscle_NH_1kp.sh 
+  110  vi Cluster_runmuscle_NH_1kp.sh 
+  111  bash Cluster_runmuscle_NH_1kp.sh 
+  112  vi Cluster_runmuscle_NH_1kp.sh 
+  113  bash Cluster_runmuscle_NH_1kp.sh 
+  114  vi Cluster_runmuscle_NH_1kp.sh 
+  115  bash Cluster_runmuscle_NH_1kp.sh 
+  116  vi Cluster_runmuscle_NH_1kp.sh 
+  117  bash Cluster_runmuscle_NH_1kp.sh 
+  118  vi Cluster_runmuscle_NH_1kp.sh 
+  119  bash Cluster_runmuscle_NH_1kp.sh 
+  120  vi Cluster_runmuscle_NH_1kp.sh 
+  121  bash Cluster_runmuscle_NH_1kp.sh 
+  122  vi Cluster_runmuscle_NH_1kp.sh 
+  123  bash Cluster_runmuscle_NH_1kp.sh 
+  124  vi Cluster_runmuscle_NH_1kp.sh 
+  125  bash Cluster_runmuscle_NH_1kp.sh 
+  126  vi Cluster_runmuscle_NH_1kp.sh 
+  127  bash Cluster_runmuscle_NH_1kp.sh 
+  128  vi Cluster_runmuscle_NH_1kp.sh 
+  129  bash Cluster_runmuscle_NH_1kp.sh 
+  130  vi Cluster_runmuscle_NH_1kp.sh 
+  131  bash Cluster_runmuscle_NH_1kp.sh 
+  132  vi Cluster_runmuscle_NH_1kp.sh 
+  133  bash Cluster_runmuscle_NH_1kp.sh 
+  134  vi Cluster_runmuscle_NH_1kp.sh 
+  135  bash Cluster_runmuscle_NH_1kp.sh 
+  136  vi Cluster_runmuscle_NH_1kp.sh 
+  137  bash Cluster_runmuscle_NH_1kp.sh 
+  138  vi Cluster_runmuscle_NH_1kp.sh 
+  139  bash Cluster_runmuscle_NH_1kp.sh 
+  140  vi Cluster_runmuscle_NH_1kp.sh 
+  141  bash Cluster_runmuscle_NH_1kp.sh 
+  142  vi Cluster_runmuscle_NH_1kp.sh 
+  143  bash Cluster_runmuscle_NH_1kp.sh 
+  144  vi Cluster_runmuscle_NH_1kp.sh 
+  145  bash Cluster_runmuscle_NH_1kp.sh 
+  146  vi Cluster_runmuscle_NH_1kp.sh 
+  147  bash Cluster_runmuscle_NH_1kp.sh 
+  148  vi Cluster_runmuscle_NH_1kp.sh 
+  149  vi profile.sh 
+  150  bash profile.sh 
+  151  vi profile.sh 
+  152  bash profile.sh 
+  153  vi profile.sh 
+  154  ls -ltr
+  155  cd /ufrc/burleigh/nhans/new1kp/
+  156  ls -ltr
+  157  cd New1kpAlignments
+  158  ls -ltr
+  159  ls -ltr *.txt
+  160  ls -ltr 'Readme'
+  161  ls -ltr 'readme'
+  162  mkdir FAA
+  163  mkdir FNA2AA
+  164  mv *FNA* FNA2AA/
+  165  mv *FAA* FAA/
+  166  ls -ltr
+  167  cd FAA/
+  168  ls -ltr |wc
+  169  cd ..
+  170  cd FNA2AA/
+  171  ls -ltr |wc
+  172  cd ..
+  173  ls
+  174  ls -ltr
+  175  cd ..
+  176  ls -ltr
+  177  cd New1kpAlignments
+  178  ls
+  179  cd FAA/
+  180  head 4471.FPwOG.FAA-upp-unmasked.prune.phy 
+  181  cp ../../phy2fasta_NH_1kp.pl .
+  182  perl phy2fasta_NH_1kp.pl 
+  183  vi phy2fasta_NH_1kp.pl 
+  184  perl phy2fasta_NH_1kp.pl 
+  185  ls -ltr
+  186  head 4471.FPwOG.FAA-upp-unmasked.prune.fasta
+  187  :1
+  188  head 4471.FPwOG.FAA-upp-unmasked.prune.fasta
+  189  vi phy2fasta_NH_1kp.pl 
+  190  cat *.fasta >FAA_database.fasta
+  191  rm FAA_database.fasta 
+  192  cd ..
+  193  ls -ltr
+  194  cd ..
+  195  ls
+  196  vi onekpLoci.txt 
+  197  ls -ltr
+  198  mkdir GoFlagAlign
+  199  mv *.ED2.fasta GoFlagAlign/
+  200  cd GoFlagAlign/
+  201  ls
+  202  head L1.ED2.fasta 
+  203  rm *
+  204  cp /ufrc/burleigh/nhans/1kp/GoFlag_EditedAlignments/*.ED2.fasta .
+  205  ls -ltr
+  206  cd ..
+  207  ls -ltr
+  208  head L90.ED2.fasta 
+  209  rm *.ED2.fasta
+  210  ls
+  211  ls -ltr
+  212  cd GoFlagAlign/
+  213  ls -ltr
+  214  cd ..
+  215  cd GoFlagAlign/
+  216  pwd
+  217  cd ..
+  218  cd New1kpAlignments/FNA2AA/
+  219  pwd
+  220  ls
+  221  cp ../FAA/phy2fasta_NH_1kp.pl .
+  222  vi phy2fasta_NH_1kp.pl 
+  223  perl phy2fasta_NH_1kp.pl 
+  224  head 4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta 
+  225  :1
+  226  head 4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta 
+  227  cd ..
+  228  ls -ltr
+  229  cd ..
+  230  ls -ltr
+  231  head onekpLoci.txt 
+  232  head -20 onekpLoci.txt 
+  233  head -11 onekpLoci.txt 
+  234  head 11 onekpLoci.txt 
+  235  head -11 onekpLoci.txt 
+  236  tail -10  onekpLoci.txt 
+  237  cd ..
+  238  ls -ltr
+  239  cd 1kp/
+  240  cd scripts/
+  241  ls -ltr
+  242  vi Cluster_runmuscle_NH_1kp.sh 
+  243  cp Cluster_runmuscle_NH_1kp.sh /ufrc/burleigh/nhans/new1kp/profile/
+  244  vi run_muscle_NH_1kp.pl 
+  245  vi Cluster_trimblast_NH_1kp.sh 
+  246  vi Cluster_blast_NH_1kp.sh 
+  247  vi trimmingblast_NH_1kp.sh 
+  248  vi removegaps_NH_1kp.sh 
+  249  vi runningblast_NH_1kp.sh 
+  250  cd ..
+  251  cd summer2017/bird/NucGb/
+  252  ls -ltr
+  253  cd 1-BashScript/
+  254  ls -ltr
+  255  vi genbank2fasta_step2_pipeline.sh 
+  256  ls -ltr
+  257  cd ..
+  258  cd bird/NucGb/runmafft_step5_pipeline.pl 
+  259  cd bird/NucGb/
+  260  cd 1-BashScript/
+  261  vi runblast_step3_pipeline.sh 
+  262  vi tar_step0_pipeline.sh 
+  263  vi trimblast_step4_pipeline.sh 
+  264  vi untar_step1_pipeline.sh 
+  265  vi runblast_step3_pipeline.sh 
+  266  cd ..
+  267  ls -ltr
+  268  cd ALLBashScripts/
+  269  vi automation_step1_deZip.sh 
+  270  vi automation_step4_trimblast.sh 
+  271  cd ..
+  272  ls -ltr
+  273  cd ..
+  274  ls -ltr
+  275  cd ..
+  276  ls -ltr
+  277  cd new1kp/
+  278  ls -ltr
+  279  cd profile/
+  280  ls -ltr
+  281  vi Cluster_runmuscle_NH_1kp.sh 
+  282  cd ..
+  283  cd FNA2AA/
+  284  ls -ltr
+  285  ls -ltr *.sh
+  286  ls -ltr *.mafft.fasta
+  287  ls
+  288  cd ..
+  289  ls -ltr
+  290  cd GoFlagAlign/
+  291  ls -ltr
+  292  head L429.mafft.sh 
+  293  vi L429.mafft.sh 
+  294  cd ..
+  295  cd profile/
+  296  ls -ltr
+  297  cd Cluster_runmuscle_NH_1kp.sh 
+  298  vi Cluster_runmuscle_NH_1kp.sh 
+  299  bash Cluster_runmuscle_NH_1kp.sh 
+  300  vi Cluster_runmuscle_NH_1kp.sh 
+  301  bash Cluster_runmuscle_NH_1kp.sh 
+  302  vi Cluster_runmuscle_NH_1kp.sh 
+  303  cd ../GoFlagAlign/
+  304  ls -ltr *.mafft.sh
+  305  rm *.mafft.sh
+  306  ls -ltr
+  307  cd ../profile/
+  308  ls -ltr
+  309  bash Cluster_runmuscle_NH_1kp.sh 
+  310  vi Cluster_runmuscle_NH_1kp.sh 
+  311  bash Cluster_runmuscle_NH_1kp.sh 
+  312  vi Cluster_runmuscle_NH_1kp.sh 
+  313  bash Cluster_runmuscle_NH_1kp.sh 
+  314  cd ..
+  315  ls -ltr
+  316  head onekpLoci.txt 
+  317  head -20 onekpLoci.txt 
+  318  ls -ltr
+  319  cd profile/
+  320  ls -ltr
+  321  cd ../GoFlagAlign/
+  322  ls -ltr
+  323  vi ../onekpLoci.txt 
+  324  cd ..
+  325  pwd
+  326  vi onekpLoci.txt 
+  327  pwd
+  328  cut -f2 onekpLoci.txt 
+  329  cd profile/
+  330  ls
+  331  vi Cluster_runmuscle_NH_1kp.sh 
+  332  cp Cluster_runmuscle_NH_1kp.sh profile.sh
+  333  vi profile.sh
+  334  bash profile.sh 
+  335  vi profile.sh
+  336  bash profile.sh 
+  337  vi profile.sh
+  338  bash profile.sh 
+  339  vi profile.sh
+  340  bash profile.sh 
+  341  vi profile.sh
+  342  bash profile.sh 
+  343  vi profile.sh
+  344  bash profile.sh 
+  345  vi profile.sh
+  346  bash profile.sh 
+  347  vi profile.sh
+  348  vi runmafft_coreNH_1kp.sh 
+  349  vi profile.sh
+  350  bash profile.sh
+  351  ls -ltr
+  352  vi L435.mafft.sh 
+  353  vi profile.sh
+  354  bash profile.sh 
+  355  ls -ltr
+  356  head mafftL42.14844900.out 
+  357  ls -ltr *.out |Wc
+  358  ls -ltr *.out |wc
+  359  squeue -u nhans
+  360  cd ..
+  361  ls -ltr
+  362  cd ..
+  363  ls -ltr
+  364  cd 1kp/
+  365  ls -ltr
+  366  cd scripts/
+  367  ls
+  368  ls -ltr
+  369  cd ..
+  370  ls -ltr
+  371  cd doingBlast/testing/
+  372  ls
+  373  ls -ltr
+  374  vi convert2fasta.pl 
+  375  cp convert2fasta.pl ../../../new1kp/profile/
+  376  cd ../../../new1kp/profile/
+  377  vi convert2fasta.pl 
+  378  cd ..
+  379  cd 1kp/doingblast2/
+  380  ls -ltr
+  381  ls -ltr *.pl
+  382  cp trimming_blastn.pl ../../new1kp/profile/
+  383  vi convert2fasta.pl 
+  384  vi trimming_blastn.pl 
+  385  ls
+  386  ls -ltr *.pl
+  387  cd ..
+  388  ls -ltr
+  389  cd doingBlast/
+  390  ls -ltr
+  391  cd 04-identity50/
+  392  ls -ltr
+  393  ls -ltr *.pl
+  394  vi trimming_blastx_NH_1kp.pl 
+  395  cd ..
+  396  ls -ltr
+  397  cd ..
+  398  ls -ltr
+  399  cd profile/
+  400  ls
+  401  ls -ltr
+  402  ld -lt *.pl
+  403  ls -lt *.pl
+  404  vi convert2fasta.pl 
+  405  cd ..
+  406  ls -ltr
+  407  cd doingblast2/
+  408  ls -ltr
+  409  ls -ltr *.pl
+  410  vi blastn.pl 
+  411  ls -ltr
+  412  mkdir blastresults
+  413  mv *.blastn blastresults/
+  414  mv *.nin blastresults/
+  415  mv *.nhr blastresults/
+  416  mv *.nsq blastresults/
+  417  mv *.null blastresults/
+  418  mkdir fastafiles
+  419  mv *.fasta fastafiles/
+  420  ls -ltr
+  421  mkdir outfiles
+  422  mv *.out outfiles/
+  423  ls -ltr
+  424  mv *.f25 fastafiles/
+  425  ls
+  426  mkdir bulkbash
+  427  mv *.original.sh bulkbash/
+  428  ls -ltr
+  429  cd ..
+  430  ls -ltr
+  431  cd ..
+  432  ls -ltr
+  433  cd new1kp/
+  434  ls -ltr
+  435  cd profile/
+  436  ls -ltr
+  437  pwd
+  438  mkdir outfiles
+  439  mv *.out outfiles/
+  440  ls -ltr
+  441  mkdir bulkbash
+  442  mv *.mafft.sh bulkbash/
+  443  ls -ltr
+  444  rm L{2..10}.sh 
+  445  ls
+  446  ls -ltr
+  447  rm L45{1..3}.sh
+  448  ls -ltr
+  449  rm L450.sh 
+  450  ls -ltr
+  451  rm runmafft_L1.sh 
+  452  vi Cluster_runmuscle_NH_1kp.sh 
+  453  rm Cluster_runmuscle_NH_1kp.sh 
+  454  vi profile.sh 
+  455  mkdir scripts
+  456  ls -ltr
+  457  cp run_mafft_NH_1kp.pl scripts/
+  458  cp runmafft_coreNH_1kp.sh scripts/
+  459  cp profile.sh scripts/
+  460  cp convert2fasta.pl scripts/
+  461  cp /ufrc/burleigh/nhans/new1kp/GoFlagAlign/*.mafft.fasta .
+  462  perl convert2fasta.pl 
+  463  ls -ltr
+  464  head L71.profile.fasta 
+  465  vi L71.profile.fasta 
+  466  mkdir mafftresults
+  467  mv *.mafft.fasta mafftresults/
+  468  ls -ltr
+  469  cd ..
+  470  ls -ltr
+  471  mkdir trim
+  472  cd trim/
+  473  vi ReadMe.NH
+  474  vi trimming_blastn.pl 
+  475  mv trimming_blastn.pl trimmingexons.pl
+  476  vi trimming_blastn.pl 
+  477  ls -ltr
+  478  rm :q!
+  479  ls
+  480  ls -ltr
+  481  vi trimmingexons.pl 
+  482  perl trimmingexons.pl 
+  483  vi trimmingexons.pl 
+  484  perl trimmingexons.pl 
+  485  cp ../FNA2AA/4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta .
+  486  cp ../GoFlagAlign/L1.ED2.fasta .
+  487  cp ../GoFlagAlign/L1.ED2.fasta.mafft.fasta .
+  488  perl trimmingexons.pl 
+  489  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  490  vi trimmingexons.pl 
+  491  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  492  vi trimmingexons.pl 
+  493  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  494  vi trimmingexons.pl 
+  495  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  496  vi trimmingexons.pl 
+  497  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  498  vi trimmingexons.pl 
+  499  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  500  vi trimmingexons.pl 
+  501  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  502  vi trimmingexons.pl 
+  503  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  504  vi trimmingexons.pl 
+  505  perl trimmingexons.pl --exon=L1.ED2.fasta --database=4471.FPwOG.FNA2AA-upp-unmasked.prune.fasta --profile=L1.ED2.fasta.mafft.fasta 
+  506  vi trimmingexons.pl
+  507  cd ..
+  508  ls -ltr
+  509  cd profile/
+  510  ls -ltr
+  511  head L75.profile.fasta
+  512  vi L75.profile.fasta
+  513  cd ../GoFlagAlign/
+  514  head L1.ED2.fasta
+  515  cd ../profile/
+  516  ls
+  517  head L100.profile.fasta 
+  518  head L100.trimmed.fasta 
+  519  head L100.trimmed.fasta
+  520  head L100.profile.fasta
+  521  cd ..
+  522  cd GoFlagAlign/
+  523  head L100.ED2.fasta
+  524  :Q!
+  525  cd ..
+  526  cd trim/
+  527  vi trimmingexons.pl 
+  528  vi trimmingexons.pl
+  529  cd ../
+  530  cd ..
+  531  cd ../share/
+  532  cd BigBirdNH/
+  533  ls -ltr
+  534  cd Mito-backtranslated/
+  535  ls -ltr
+  536  head ATP6.align.fasta.aa_to_nuc.fasta 
+  537  :q!
+  538  cd ..
+  539  ls -ltr
+  540  cd ..
+  541  ls -ltr
+  542  cd ..
+  543  cd nhans/
+  544  ls -ltr
+  545  cd summer2017/
+  546  ls -ltr
+  547  cd bird/
+  548  ls -ltr
+  549  cd MitoGb/
+  550  ls -ltr
+  551  cd GIPHASED/
+  552  ls -ltr
+  553  ls -ltr *.txt
+  554  ls -ltr *.pl
+  555  ls
+  556  cd aa_to_nuc/
+  557  ls -ltr
+  558  head back_translate_error_log.txt 
+  559  vi back_translate_error_log.txt 
+  560  cd ..
+  561  ls -ltr
+  562  ls -ltr *.pl
+  563  vi trim_cds.pl 
+  564  ls -ltr *.pl
+  565  vi 3trim_blastp_withTI.pl 
+  566  cd aa_to_nuc/
+  567  cd ..
+  568  vi back_translate_ACP_modifiedNH.pl
+  569  perl back_translate_ACP_modifiedNH.pl 
+  570  vi back_translate_ACP_modifiedNH.pl
+  571  perl back_translate_ACP_modifiedNH.pl
+  572  perl back_translate_ACP_modifiedNH.pl Birds.cds.fasta.mod.fasta align.fasta
+  573  ls -ltr
+  574  cd aa_to_nuc2/
+  575  ls -ltr
+  576  head back_translate_error_log.txt 
+  577  vi  back_translate_error_log.txt 
+  578  grep '>' ATP6.align.fasta.aa_to_nuc2.fasta 
+  579  grep '>' ATP6.align.fasta.aa_to_nuc2.fasta |wc
+  580  cd ..
+  581  grep '>' ATP6.align.fasta |wc
+  582  vi back_translate_ACP_modifiedNH.pl 
+  583  grep '>' ATP6.align.fasta |wc
+  584  grep '>' aa_to_nuc/ATP6.align.fasta.aa_to_nuc2.fasta |wc
+  585  grep '>' aa_to_nuc/ATP6.align.fasta.aa_to_nuc.fasta |wc
+  586  vi back_translate_ACP_modifiedNH.pl 
+  587  perl back_translate_ACP_modifiedNH.pl 
+  588  perl back_translate_ACP_modifiedNH.pl Birds.cds.fasta.mod.fasta align.fasta
+  589  ls -ltr
+  590  cd aa_to_nuc2/
+  591  ls -ltr
+  592  grep '>' ATP6.align.fasta.aa_to_nuc2.fasta 
+  593  grep '>' ATP6.align.fasta.aa_to_nuc2.fasta |wc
+  594  vi back_translate_error_log.txt 
+  595  cd ..
+  596  vi back_translate_ACP_modifiedNH.pl 
+  597  rm -r aa_to_nuc2/
+  598  perl back_translate_ACP_modifiedNH.pl Birds.cds.fasta.mod.fasta align.fasta
+  599  vi back_translate_ACP_modifiedNH.pl 
+  600  perl back_translate_ACP_modifiedNH.pl Birds.cds.fasta.mod.fasta align.fasta
+  601  vi back_translate_ACP_modifiedNH.pl 
+  602  perl back_translate_ACP_modifiedNH.pl Birds.cds.fasta.mod.fasta align.fasta
+  603  cd aa_to_nuc
+  604  vi back_translate_error_log.txt 
+  605  cd /ufrc/burleigh/nhans/summer2017/bird/MitoGb/GIPHASED/
+  606  vi back_translate_ACP_modifiedNH.pl 
+  607  cpwd
+  608  pwd
+  609  vi back_translate_ACP_modifiedNH.pl 
+  610  ls -ltr
+  611  cd /ufrc/burleigh/nhans/new1kp/
+  612  ls -ltr
+  613  cd translate/
+  614  ls -ltr
+  615  vi translatedna2aa.pl 
+  616  perl translatedna2aa.pl 
+  617  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  618  vi translatedna2aa.pl 
+  619  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  620  vi translatedna2aa.pl 
+  621  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  622  vi translatedna2aa.pl 
+  623  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  624  vi translatedna2aa.pl
+  625  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  626  vi translatedna2aa.pl
+  627  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  628  vi translatedna2aa.pl
+  629  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=L1.profile.fasta
+  630  vi translatedna2aa.pl
+  631  cp /ufrc/burleigh/nhans/new1kp/compare/4471.A2.fasta .
+  632  vi translatedna2aa.pl 
+  633  perl translatedna2aa.pl 
+  634  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  635  vi translatedna2aa.pl 
+  636  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  637  vi translatedna2aa.pl 
+  638  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  639  vi translatedna2aa.pl 
+  640  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  641  vi translatedna2aa.pl 
+  642  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  643  vi translatedna2aa.pl 
+  644  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  645  vi translatedna2aa.pl 
+  646  cd /ufrc/burleigh/nhans/
+  647  ls -ltr
+  648  cd new1kp/
+  649  ls -lt
+  650  cd translate/
+  651  ls -ltr
+  652  vi translatedna2aa.pl 
+  653  cd /ufrc/burleigh/nhans
+  654  cd new1kp
+  655  cd translate
+  656  cd /ufrc/burleigh/nhans/summer2017/bird/MitoGb/GIPHASED/
+  657  ls -ltr
+  658  vi back_translate_ACP_modifiedNH.pl 
+  659  cd ..
+  660  ls -ltr
+  661  cd 1kp/
+  662  cd scripts/
+  663  cd ..
+  664  ls -ltr
+  665  cd GoFlag_EditedAlignments/
+  666  ls
+  667  ls -ltr
+  668  vi phy2fasta.pl 
+  669  cd ..
+  670  ls -ltr
+  671  cd profile/
+  672  ls
+  673  vi convert2fasta.pl 
+  674  ls -ltr
+  675  cd ..
+  676  ls -ltr
+  677  cd GoFlag_EditedAlignments/
+  678  ls
+  679  ls -ltr
+  680  cd ..
+  681  ls -ltr
+  682  cd scripts/
+  683  ls -ltr
+  684  cd ..
+  685  ls -ltr
+  686  cd ..
+  687  cd new1kp/
+  688  ls -ltr
+  689  cd p
+  690  cd profile/
+  691  ls -ltr
+  692  cd scripts/
+  693  ls -ltr
+  694  vi convert2fasta.pl 
+  695  cp convert2fasta.pl ../../FNA2AA/
+  696  cd ..
+  697  ls -ltr
+  698  cd FNA2AA/
+  699  ls -ltr
+  700  heas 7601.N2.fasta 
+  701  head 7601.N2.fasta 
+  702  :q!
+  703  cd ..
+  704  ls -ltr
+  705  mkdir compare
+  706  mv FNA2AA/*.N2.fasta compare/
+  707  cd compare/
+  708  ls -ltr
+  709  cd ..
+  710  ls -ltr
+  711  cd trim/
+  712  ls -ltr
+  713  cd ..
+  714  cd profile/
+  715  ls -ltr
+  716  cd scripts/
+  717  ls -ltr
+  718  vi profile.sh 
+  719  cp profile.sh ../../compare/
+  720  cd ../../compare/
+  721  ls -ltr
+  722  mv profile.sh compare.sh
+  723  mv ../FAA/*.A2.fasta .
+  724  cd ..
+  725  ls -ltr
+  726  cd ..
+  727  cd 1kp/
+  728  ls -ltr
+  729  cd profile/
+  730  ls -ltr
+  731  vi first.
+  732  vi first.NH 
+  733  vi awk.sh 
+  734  vi command.nh 
+  735  vi filesthatmatchedwithexons.NH 
+  736  vi awk.sh 
+  737  head onekpLoci.NH1.txt 
+  738  cd ..
+  739  cd new1kp/compare/
+  740  ls -ltr
+  741  head 4471.N2.fasta 
+  742  head 4471.A2.fasta 
+  743  vi compare.sh 
+  744  comm -23 4471.A2.fasta 4471.N2.fasta 
+  745  grep -v '>' 4471.A2.fasta 4471.N2.fasta >out
+  746  head out
+  747  grep -v  4471.A2.fasta 4471.N2.fasta >out
+  748  out
+  749  vi out 
+  750  grep '>' 4471.A2.fasta 
+  751  grep '>' 4471.N2.fasta 
+  752  grep '>' 4471.N2.fasta >N2.out
+  753  grep '>' 4471.A2.fasta >A2.out
+  754  diff N2.out A2.out 
+  755  pwd
+  756  ls -ltr
+  757  head 4471.A2.fasta 
+  758  pwd
+  759  ls -ltr
+  760  vi N2.out 
+  761  vi A2.out 
+  762  diff -v N2.out A2.out 
+  763  diff
+  764  diff --help
+  765  diff -w N2.out A2.out 
+  766  diff
+  767  diff --help
+  768  diff -u N2.out A2.out 
+  769  cd .
+  770  cd /ufrc/burleigh/nhans/new1kp/
+  771  ls -ltr
+  772  cd translate/
+  773  ls -ltr
+  774  vi translatedna2aa.pl 
+  775  perl translatedna2aa.pl 
+  776  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  777  vi translatedna2aa.pl 
+  778  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  779  vi translatedna2aa.pl
+  780  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  781  vi translatedna2aa.pl
+  782  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  783  vi translatedna2aa.pl
+  784  ls -ltr
+  785  head L1.profile.fasta.E1.fasta 
+  786  ls -ltr
+  787  module load muscle
+  788  muscle -in L1.profile.fasta.E1.fasta -out L1.profile.fasta.E2.muscle.fasta
+  789  ls -ltr
+  790  head L1.profile.fasta.E2.muscle.fasta 
+  791  vi L1.profile.fasta.E2.muscle.fasta 
+  792  ls -ltr
+  793  head L1.profile.fasta.E1.fasta 
+  794  vi  L1.profile.fasta.E1.fasta 
+  795  head L1.profile.fasta.E1.fasta 
+  796  head L1.profile.fasta
+  797  grep 'UFG_393201_P02_WD06_Mastigolejeunea_auriculata' L1.profile.fasta
+  798  grep 'UFG_393201_P02_WD06_Mastigolejeunea_auriculata' L1.profile.fasta.E1.fasta 
+  799  vi L1.profile.fasta.E1.fasta 
+  800  vi translatedna2aa.pl
+  801  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  802  vi translatedna2aa.pl
+  803  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  804  vi translatedna2aa.pl
+  805  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  806  vi translatedna2aa.pl
+  807  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  808  vi translatedna2aa.pl
+  809  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  810  vi translatedna2aa.pl
+  811  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  812  vi translatedna2aa.pl
+  813  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  814  vi translatedna2aa.pl
+  815  perl translatedna2aa.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  816  vi translatedna2aa.pl
+  817  cd /ufrc/burleigh/nhans/
+  818  ls -ltr
+  819  cd new1kp/
+  820  ls -ltr
+  821  cd translate/
+  822  ls -ltr
+  823  head L1.profile.fasta.frame1.fasta 
+  824  head L1.profile.fasta.frame2.fasta 
+  825  head L1.profile.fasta.frame3.fasta 
+  826  vi L1.profile.fasta.frame1.fasta 
+  827  vi translatedna2aa9jan.pl 
+  828  perl translatedna2aa9jan.pl 
+  829  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  830  ls -ltr
+  831  head L1.profile.fasta.Ematch1.fasta 
+  832  grep '>' *.Ematch1.fasta|wc
+  833  vi translatedna2aa9jan.pl 
+  834  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  835  grep '>' *.Ematch1.fasta|wc
+  836  vi translatedna2aa9jan.pl 
+  837  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  838  vi translatedna2aa9jan.pl 
+  839  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  840  vi translatedna2aa9jan.pl 
+  841  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  842  cd /ufrc/burleigh/nhans/
+  843  cd new1kp/
+  844  ls -ltr
+  845  cd translate/
+  846  ls
+  847  ls -ltr
+  848  vi translatedna2aa9jan.pl 
+  849  perl translatedna2aa9jan.pl 
+  850  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  851  ls -ltr
+  852  cd /ufrc/burleigh/nhans/new1kp/
+  853  ls -ltr
+  854  cd translate/
+  855  ls -ltr
+  856  vi translatedna2aa11jan.pl
+  857  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  858  ls -ltr
+  859  vi translatedna2aa11jan.pl
+  860  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  861  perl translatedna2aa9jan.pl 
+  862  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  863  vi translatedna2aa11jan.pl
+  864  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  865  vi translatedna2aa11jan.pl
+  866  perl translatedna2aa9jan.pl
+  867  perl translatedna2aa9jan.pl --exon=L1.profile.fasta
+  868  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  869  cd /ufrc/burleigh/nhans/new1kp/translate/
+  870  ls -ltr
+  871  vi translatedna2aa11jan.pl 
+  872  perl translatedna2aa9jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  873  ls -ltr
+  874  cd new1kp/
+  875  cd translate/
+  876  vi translatedna2aa12jan.pl 
+  877  ls -ltr
+  878  cd new1kp/
+  879  ls -ltr
+  880  cd translate/
+  881  ls -ltr
+  882  vi translatedna2aa12jan.pl 
+  883  perl translatedna2aa12jan.pl 
+  884  perl translatedna2aa12jan.pl --exon=L1.profile.fasta --AAdatabase=4471.A2.fasta 
+  885  ls -ltr
+  886  head L1.profile.fasta.Ematch1.fasta 
+  887  cp profile10jan.sh profile12jan.sh 
+  888  vi profile12jan.sh 
+  889  cp translate_coreNH10jan_1kp.sh translate_coreNH12jan_1kp.sh
+  890  vi translate_coreNH12jan_1kp.sh 
+  891  vi translatedna2aa12jan.pl 
+  892  bash profile12jan.sh 
+  893  ls -ltr
+  894  squeue -u nhans
+  895  ls -ltr
+  896  mv *.out outfiles/
+  897  ls -ltr
+  898  mv *translate12jan.sh bulkbash/
+  899  ls -ltr
+  900  cd ..
+  901  cd profile/profileresults/
+  902  ls -ltr
+  903  mkdir Frames
+  904  mv *frame* Frames/
+  905  ls -ltr
+  906  head L1.profile.fasta.Ematch2.fasta 
+  907  grep '*' L1.profile.fasta.Ematch2.fasta |wc
+  908  grep '*' L1.profile.fasta.Ematch1.fasta |wc
+  909  grep '-' L1.profile.fasta.Ematch1.fasta |wc
+  910  grep '-' L1.profile.fasta.Ematch2.fasta |wc
+  911  grep '-' L2.profile.fasta.Ematch2.fasta |wc
+  912  grep '-' L2.profile.fasta.Ematch1.fasta |wc
+  913  module restore
+  914  muscle -in L1.profile.fasta.Ematch1.fasta -out L1.muscle
+  915  ls -ltr
+  916  head L1.muscle 
+  917  vi L1.muscle 
+  918  muscle -in L2.profile.fasta.Ematch1.fasta -out L2.muscle
+  919  ls -ltr
+  920  head L1.muscle 
+  921  vi L1.muscle 
+  922  muscle -in L3.profile.fasta.Ematch1.fasta -out L3.muscle
+  923  head L3.muscle 
+  924  vi L3.muscle 
+  925  ls -ltr
+  926  muscle -in L4.profile.fasta.Ematch1.fasta -out L4.muscle
+  927  head L3.muscle 
+  928  vi L3.muscle 
+  929  head L4.muscle 
+  930  vi L4.muscle 
+  931  lsr
+  932  cd birdgenome/
+  933  lsr
+  934  cd ..
+  935  cd Cloning_Github/
+  936  lsr
+  937  cd WorkFlow_BuildingTrees/
+  938  ls
+  939  lsr
+  940  vi README.md 
+  941  up 1
+  942  lsr
+  943  cd WorkFlow_BuildingTrees/
+  944  lsr
+  945  vi README.md 
+  946  up 1
+  947  lsr
+  948  cd Data_cloning/
+  949  lsr
+  950  lsr *.NH
+  951  lsr *.NH 
+  952  lsr *NH*
+  953  vi noteNH.txt 
+  954  vi README.md 
+  955  ls
+  956  lsr
+  957  cd Cloning_Github/
+  958  lsr
+  959  cd WorkFlow_BuildingTrees/
+  960  lsr
+  961  vi README.md 
+  962  cd TRIAL/
+  963  lsr
+  964  cd ..
+  965  lsre
+  966  lsr
+  967  cd ..
+  968  cd Data_cloning/
+  969  lsr
+  970  vi README.md 
+  971  ls -ltr
+  972  cd ..
+  973  lsr
+  974  rm -r BigBird/
+  975  echo "# BigBird" >>README.md
+  976  git init
+  977  module restore
+  978  git init
+  979  git add READMe.md
+  980  git add README.md
+  981  git commit -m "first commit 4 big"
+  982  git remote add origin git@github.com:natya88/BigBird.git
+  983  git push -u origin master
+  984  git remote add origin git@github.com:natya88/BigBird.git
+  985  lsr
+  986  rm README.md 
+  987  mkdir BigBirf
+  988  git remote add origin git@github.com:natya88/BigBirf.git
+  989  git push -u origin master
+  990  lsr
+  991  cd BigBirf/
+  992  git push -u origin master
+  993  lsr
+  994  cd .,
+  995  cd ..
+  996  rm -r BigBirf/
+  997  lsr
+  998  cd Data_cloning/
+  999  lsr
+ 1000  vi README.md 
+ 1001  lsr
+ 1002  gbird
+ 1003  lsr
+ 1004  cd NucGb/
+ 1005  cd ..
+ 1006  cd MitoGb/
+ 1007  lsr
+ 1008  pwd
+ 1009  lsr
+ 1010  rm *
+ 1011  mkdir scripts
+ 1012  cd scripts/
+ 1013  lsr
+ 1014  pwd
+ 1015  cd ..
+ 1016  lsr
+ 1017  cd ..
+ 1018  lsr
+ 1019  ga *
+ 1020  module restore
+ 1021  ga *
+ 1022  gc -m "updating Mito"
+ 1023  git push -u origin master
+ 1024  lsr
+ 1025  cd ..
+ 1026  lsr
+ 1027  cd BigBird/
+ 1028  lsr
+ 1029  ga *
+ 1030  gc -m "updating the foler"
+ 1031  gc -m "updating the folder"
+ 1032  git push -u origin master
+ 1033  lsr
+ 1034  cd NucGb/
+ 1035  lsr
+ 1036  cd ..
+ 1037  lsr
+ 1038  git init
+ 1039  ga *
+ 1040  gc -m "All scripts mito and nuc pipeline updated"
+ 1041  git push -u origin master
+ 1042  cd NucGb/
+ 1043  lsr
+ 1044  cd scripts/
+ 1045  lsr
+ 1046  cd ..
+ 1047  lsr
+ 1048  lst
+ 1049  gi
+ 1050  git init
+ 1051  git add *
+ 1052  git commit -m "adding and pushing"
+ 1053  git remote add origin gNH:natya88/BigBird.git
+ 1054  git push -u origin master
+ 1055  git commit -a
+ 1056  git commit -a -m "adding all"
+ 1057  git push -u origin master
+ 1058  cd MitoGb/
+ 1059  vi Readme.NH
+ 1060  cd ..
+ 1061  lsr
+ 1062  git add -a -m "finally getting the hang of this"
+ 1063  git commit -a -m "finally getting the hang of this"
+ 1064  ga *
+ 1065  git commit -a -m "finally getting the hang of this"
+ 1066  git push -u origin master
+ 1067  history
+ 1068  history | more
+ 1069  history | more >savinghistory.NH
