@@ -5,10 +5,14 @@ permalink: /posts/2019/05/RunningRAxML/
 tags:
   - hipergator
   - bash
-<<<<<<< HEAD
   - aliases
   - linux
+  - RAxML
 --- 
+
+edit from NH: I wrote this post on RAxML back in 2019, forgot to push it to GitHub and modified it in Dec 2021 with updates.
+====
+
 RAxML(or Randomized Axelerated Maximum Likelihood is a program used for building large maximum likelihood inferred phylogenetic trees. It can also be used for alignment analysis or certain analysis of phylogenetic trees themselves. It was developed by [Alexis Stamatakis](https://cme.h-its.org/exelixis/index.html) 
 The paper on RAxML-HPC  https://academic.oup.com/bioinformatics/article/22/21/2688/251208 
 
@@ -16,11 +20,6 @@ For more information on RAxML and it's importance click [here for the manual](ht
 The wikipedia article on HiPerGator address and covers how to run mpi (parallel) version  of RAxML. I am just going to talk about how to put all that information in a single threaded.
 
 
-=======
-  - RAxML
-  - linux
---- 
-edit from NH: I wrote this post on RAxML back in 2019, forgot to push it to GitHub and modified it in Dec 2021 with updates.
 
 
 Really brief background 
@@ -31,7 +30,8 @@ It was originally derived from fastDNAml which was derived from Joe Felsentein�
 For more information on RAxML and it's importance click [here for the manual](https://cme.h-its.org/exelixis/resource/download/NewManual.pdf) and  for software information [here](https://cme.h-its.org/exelixis/software.html). 
 The wiki [article](https://help.rc.ufl.edu/doc/RAxML) on HiPerGator address and covers how to run mpi (parallel) version  of RAxML. I am just going to talk about how to put all that information in a single threaded. 
 
-RAxML takes gene alignments as input in [phylip format](https://evolution.genetics.washington.edu/phylip/doc/sequence.html) and gives a ML tree  
+RAxML takes gene alignments as input in [phylip format](https://evolution.genetics.washington.edu/phylip/doc/sequence.html) and gives a ML tree.
+
 Getting files and folders ready
 --------
 You can download a sample slurm script to be modified [here](http://NatyaHans.github.io/files/slurm_4_tania_raxml.sh) and a sample phylip format alignment [here](http://NatyaHans.github.io/files/sample.phy).
@@ -143,5 +143,4 @@ module load raxml # loading raxml default version
 # do 1000 bootstraps + likelihood search for the single best tree
 raxmlHPC-SSE3 -f a -m GTRGAMMA -s sample.phy -p $RANDOM -x $RANDOM -N 1000 -n RAxML_OUTPUTFILENAME -T $SLURM_TASKS_PER_NODE
 ```
->>>>>>> origin/master
 
