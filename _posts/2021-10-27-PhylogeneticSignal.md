@@ -1,13 +1,14 @@
 ---
 title: 'Looking for phylogenetic Signal using Pagel's Lambda and Bloomberg's K HiPerGator'
 date: 2021-10-27
-permalink: /posts/2021/10/PhylogeneticSignal/
+permalink: /posts/2021/10/PhylogeneticSignal
 tags:
   - hipergator
   - bash
-  - aliases
   - linux
-—--
+  - pagel
+  - bloomberg
+---
 
 To be added soon
 
