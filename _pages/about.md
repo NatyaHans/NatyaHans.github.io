@@ -9,10 +9,7 @@ redirect_from:
 ---
 
 Hi! I am a PhD candidate in Biology Department at University of Florida. I am a computational evolutionary biologist in [Dr. Gordon Burleigh](https://biology.ufl.edu/gburleigh/) 's lab.  I am interested in developing tools for phylogenetic comparitive methods.  My research involves using statistical approaches and computational methods to understand the generation and maintenance of biological diversity. My focus is on studying evolutionary patterns of diversification at both the species and genomic level. 
-
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="natya-hans-a3752727" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/natya-hans-a3752727?trk=profile-badge">Natya Hans</a></div>
-              
+        
 
 Recent News
 -----------
