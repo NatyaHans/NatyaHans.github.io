@@ -18,7 +18,7 @@ Recent News
 -----------
 ### March 2022
 Co-organizing a symposium with [Chloe Nash](https://chloemnash.wordpress.com/) and [Dr. Alex Hernandez](https://www.whitney.ufl.edu/articles/alexandra-hernandez-of-the-ryan-lab-defends-her-phd.html) on "HOW DO WE MAKE DECISIONS ABOUT DATA AND ANALYSES IN SYSTEMATIC BIOLOGY? IT DEPENDS!" sponsored by [The Society of Systematic Biology](https://www.systbio.org/) at [Evolution Meeting 2022](https://www.evolutionmeetings.org/symposia.html) to be held at Cleveland, Ohio from June 24th to June 28th 2022.
-For more details about the symposium and list of invited speakers [click here](https://natyahans.github.io/ItDepends/)
+For more details about the symposium and list of invited speakers [click here](https://natyahans.github.io/ItDepends/).
 
 ### October 2020
 SACNAS UF chapter was awarded the Role model award for outstanding fundraising at the virtual National SACNAS conference 2020. I , along with two other graduate students, Sarah Kurtis and Alexandra Hernandez was invited to present a talk on best fundraising practices at the virtual national sacnas conference.
