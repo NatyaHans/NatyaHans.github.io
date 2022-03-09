@@ -23,13 +23,10 @@ main:
   
   - title: "Tutorials"
     url: /year-archive/
-<<<<<<< HEAD
-  
-=======
    
   - title: "DataViz"
     url: /analytics-dash/
->>>>>>> origin/master
+
 
     
   #- title: "Gallery"
