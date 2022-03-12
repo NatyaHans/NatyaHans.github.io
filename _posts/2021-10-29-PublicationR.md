@@ -38,7 +38,7 @@ display.brewer.all(colorblindFriendly = TRUE)
 #getPalette = colorRampPalette(colorblind_pal())
 ```
 ![image](https://user-images.githubusercontent.com/49882391/157997917-9f8d5b76-c077-451c-9f2b-5c3b20e388fb.png){
-  width: 70%;
+  width: 10%;
   border: none;
   background: none;
 }
