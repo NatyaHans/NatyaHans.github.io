@@ -25,5 +25,7 @@ Next, I prefer using a colorblind friendly palette for all of my figures for eas
 ```{r}
 my.blues<-c("#9EBCDA","#9ECAE1","#6BAED6","#4292C6","#2171B5","#08519C","#08306B","#9E9AC8","#807DBA","#6A51A3","#54278F","#3F007D","#8C6BB1","#88419D","#810F7C","#4D004B")
 pie(rep(1,length(my.blues)),col=my.blues)
-
 ```
+This is what the palette looks like:
+
+![image](https://user-images.githubusercontent.com/49882391/157997772-4432c46d-b07e-41e3-9fa9-a202ceb21344.png)
