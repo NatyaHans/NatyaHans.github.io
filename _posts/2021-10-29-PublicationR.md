@@ -37,7 +37,11 @@ par(mar=c(3,4,2,2))
 display.brewer.all(colorblindFriendly = TRUE) 
 #getPalette = colorRampPalette(colorblind_pal())
 ```
-![image](https://user-images.githubusercontent.com/49882391/157997917-9f8d5b76-c077-451c-9f2b-5c3b20e388fb.png)<!-- .element height="40%" width="40%" -->
+![image](https://user-images.githubusercontent.com/49882391/157997917-9f8d5b76-c077-451c-9f2b-5c3b20e388fb.png){
+  width: 70%;
+  border: none;
+  background: none;
+}
 
 
 Now the fun begins. Let's create some fun figures. 
