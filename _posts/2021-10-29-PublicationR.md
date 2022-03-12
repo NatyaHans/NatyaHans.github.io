@@ -18,3 +18,12 @@ all.lib<-c("reshape2","ggplot2","gridExtra","ggpubr","ggthemes","scales","RColor
 #install.packages(all.lib)
 lapply(all.lib,require,character.only=TRUE)
 ```
+
+I like creating a vector of all packages and loading them together using lapply function. Of course if the packages are not already installed, you will have to install them and then this line can be commented out. 
+
+Next, I prefer using a colorblind friendly palette for all of my figures for easy of accessibility. I like the blues and purples so i created my own palette here:
+```{r}
+my.blues<-c("#9EBCDA","#9ECAE1","#6BAED6","#4292C6","#2171B5","#08519C","#08306B","#9E9AC8","#807DBA","#6A51A3","#54278F","#3F007D","#8C6BB1","#88419D","#810F7C","#4D004B")
+pie(rep(1,length(my.blues)),col=my.blues)
+
+```
