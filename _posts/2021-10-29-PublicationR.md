@@ -30,6 +30,8 @@ This is what the palette looks like:
 
 ![image](https://user-images.githubusercontent.com/49882391/157997772-4432c46d-b07e-41e3-9fa9-a202ceb21344.png)<!-- .element height="50%" width="50%" -->
 
+![image](https://user-images.githubusercontent.com/49882391/157998398-7769d0a1-c217-4105-9926-a4f4c4b28203.png)
+
 Or you can also use the colorblind friendly palettes in RColorBrewer package as follows:
 
 ```{r}
