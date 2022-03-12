@@ -29,3 +29,18 @@ pie(rep(1,length(my.blues)),col=my.blues)
 This is what the palette looks like:
 
 ![image](https://user-images.githubusercontent.com/49882391/157997772-4432c46d-b07e-41e3-9fa9-a202ceb21344.png)
+
+Or you can also use the colorblind friendly palettes in RColorBrewer package as follows:
+
+```{r}
+par(mar=c(3,4,2,2))
+display.brewer.all(colorblindFriendly = TRUE) 
+#getPalette = colorRampPalette(colorblind_pal())
+```
+![image](https://user-images.githubusercontent.com/49882391/157997917-9f8d5b76-c077-451c-9f2b-5c3b20e388fb.png)
+
+
+Now the fun begins. Let's create some fun figures. 
+
+- add the code here (find the markdown)
+
