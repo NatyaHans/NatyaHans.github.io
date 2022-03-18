@@ -1,6 +1,6 @@
 ---
 title: 'Digital Planner 2022'
-date: 2022-03-11
+date: 2022-03-18
 permalink: /posts/2022/03/Planner
 tags:
   - free
