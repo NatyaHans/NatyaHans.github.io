@@ -13,8 +13,9 @@ main:
   - title: "Talks"
     url: /talks/      
   
- # - title: "Workshops"
- #    url: /workshops/  
+  - title: "Courses & Workshops"
+     url: /workshops/  
+     
      # - title: "Publications"
  #   url: /publications/
 
