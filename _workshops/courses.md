@@ -1,4 +1,3 @@
-
 ---
 title: "List of courses taken at UF"
 collection: workshops
@@ -8,6 +7,7 @@ venue: "University of Florida"
 date: 2018-04-1
 location: Gainesville, FL, USA"
 ---
+
 
 GradCourses
 ===
