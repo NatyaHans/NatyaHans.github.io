@@ -8,22 +8,23 @@ date: 2019-04-01
 location: "Gainesville, Florida"
 ---
 
-I have taught the Genetics lecture course(PCB3063) for two semesters.
+I have taught the Genetics lecture course(PCB3063) for five semesters.
 
 
 Spring 2021
 ======
-I am currently a teaching assistant for Dr Hazel Levy for Genetics course which is being offered in HyFlex course design.
+I was a teaching assistant for [Dr Hazel Levy](https://biology.ufl.edu/hazel-levy/) for Genetics course which was offered in HyFlex course design. I helped with designing and formatting the course structure including student projects on bioethics and on various human genetic diseases. I also helped with Bioinformatics training sesssions.
+
 
 Fall 2020
 ======
-Teaching Assistant for Dr Bernard Hauser for Genetics class delivered completely online through zoom due to Covid-19.
+Teaching Assistant for [Dr Bernard Hauser](https://biology.ufl.edu/bahauser/) for Genetics class delivered completely online through zoom due to Covid-19.
 
 Spring 2020
 ======
 I was teaching assistant for [Dr. Michael M Miyamoto](https://vivo.ufl.edu/display/n13251)
 1. I gave two hour lecture on bacterial and viral recombination and replication
-2. I also taught computer sessions on using various NCBI database such as PubMed, OMIM, MesH, Genbank, Structure, dbSNP,Genetic Testing Registry(GTR),Entrez, GeneReviews, KEGG. I also taught using Cn3D software.
+2. I also did bioinformatics training sessions on using various NCBI database such as PubMed, OMIM, MesH, Genbank, Structure, dbSNP,Genetic Testing Registry(GTR),Entrez, GeneReviews, KEGG. I also taught using Cn3D software.
 
 
 Spring 2019
