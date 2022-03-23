@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate Lecture"
 permalink: /teaching/genetics
 venue: "University of Florida, Department of Biology"
-date: 2019-04-01
+date: 2021-04-01
 location: "Gainesville, Florida"
 ---
 
