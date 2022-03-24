@@ -31,7 +31,7 @@ Grad courses
 
 Seminar
 ===
-**ZOO6930** Seminar in Molecular evolution x 2 
+**ZOO6930** Seminar in Molecular evolution
 
-**GMS6290** Genetics and Genomics Seminar x 8 times
+**GMS6290** Genetics and Genomics Seminar
 
