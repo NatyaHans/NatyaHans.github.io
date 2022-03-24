@@ -9,12 +9,12 @@ main:
     
  #- title: "Awards"
  #   url: /awards/
-  
+
   - title: "Talks"
-    url: /talks/      
-  
+    url: /talks/
+    
   - title: "Courses & Workshops"
-     url: /workshops/  
+    url: /workshops/  
      
      # - title: "Publications"
  #   url: /publications/
