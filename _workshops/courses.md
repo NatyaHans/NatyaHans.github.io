@@ -1,5 +1,5 @@
 ---
-title: "List of courses taken at UF"
+title: "Courses"
 collection: workshops
 type: "Workshop"
 permalink: /workshops/courses
@@ -8,6 +8,7 @@ date: 2022-04-1
 location: Gainesville, FL, USA"
 ---
 
+List of grad level courses taken at UF during Ph.D.
 Grad courses
 ===
 **GMS6290** Advanced Genetics
