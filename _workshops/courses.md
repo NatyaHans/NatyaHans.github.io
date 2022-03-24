@@ -8,7 +8,7 @@ date: 2022-04-1
 location: Gainesville, FL, USA"
 ---
 
-[Grad courses](http://ufgi.ufl.edu/grad-program/first-year-courses/)
+Grad courses
 ===
 **GMS6290** Advanced Genetics
 
