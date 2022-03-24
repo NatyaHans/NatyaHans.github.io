@@ -2,7 +2,7 @@
 title: "List of courses taken at UF"
 collection: workshops
 type: "Workshop"
-permalink: /courses/
+permalink: /workshops/courses
 venue: "University of Florida"
 date: 2022-04-1
 location: Gainesville, FL, USA"
