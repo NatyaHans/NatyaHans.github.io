@@ -8,12 +8,13 @@ date: 2022-04-1
 location: Gainesville, FL, USA"
 ---
 
-
+Grad courses
+===
 **GMS6290** Adcanced Genetics
 
 **GMS6231** Genomics and Bioinformatics
 
-**GMS5905** Transciptional  Analysis
+**GMS5905** Transciptional Analysis
 
 **GMS6221** Ethics in Genetics
 
