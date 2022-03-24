@@ -10,7 +10,7 @@ location: Gainesville, FL, USA"
 
 Grad courses
 ===
-**GMS6290** Adcanced Genetics
+**GMS6290** Advanced Genetics
 
 **GMS6231** Genomics and Bioinformatics
 
