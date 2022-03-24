@@ -9,6 +9,8 @@ location: Gainesville, FL, USA"
 ---
 
 List of grad level courses taken at UF during Ph.D.
+
+
 Grad courses
 ===
 **GMS6290** Advanced Genetics
