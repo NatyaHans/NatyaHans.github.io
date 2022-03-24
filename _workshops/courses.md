@@ -4,13 +4,11 @@ collection: workshops
 type: "Workshop"
 permalink: /courses
 venue: "University of Florida"
-date: 2018-04-1
+date: 2022-04-1
 location: Gainesville, FL, USA"
 ---
 
 
-GradCourses
-===
 **GMS6290** Adcanced Genetics
 
 **GMS6231** Genomics and Bioinformatics
