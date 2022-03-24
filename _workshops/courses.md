@@ -4,7 +4,7 @@ collection: workshops
 type: "Workshop"
 permalink: /workshops/courses
 venue: "University of Florida"
-date: 2022-04-1
+date: 2022-03-23
 location: Gainesville, FL, USA"
 ---
 
