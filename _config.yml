@@ -197,6 +197,9 @@ collections:
   viz:
     output: true
     permalink: /:collection/:path/
+  workshops:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
